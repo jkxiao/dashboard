@@ -1,0 +1,39 @@
+@import "../../scss/_config";
+
+footer {
+  width: 100vw;
+  height: $footer-height;
+  @include flex-display(column);
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: $background-color;
+
+  div {
+    margin: 2.5px;
+  }
+
+  .copyright {
+    color: $title-color;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .tribute {
+    @include flex-display(row);
+    color: $subtitle-color;
+    font-size: 0.5rem;
+
+    div {
+      margin: 0 5px;
+    }
+
+    a {
+      color: $subtitle-color;
+      &:hover {
+        text-decoration: none;
+        color: $title-color;
+      }
+    }
+  }
+}

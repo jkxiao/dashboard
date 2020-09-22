@@ -1,0 +1,12 @@
+@import "./variables";
+
+@mixin flex-display($flex-direnction) {
+  display: flex;
+  flex-direction: $flex-direnction;
+  align-items: center;
+  justify-content: center;
+}
+
+@function color($key) {
+  @return nth($colors, $key);
+}

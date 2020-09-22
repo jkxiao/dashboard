@@ -1,0 +1,49 @@
+@import "../../scss/_config";
+
+.home-section {
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+
+.jumbotron {
+  width: inherit;
+  height: inherit;
+}
+
+.package-logo {
+  width: 100px;
+}
+
+.package-logo-v {
+  height: 100px;
+}
+
+.carousel {
+  width: inherit;
+  height: inherit;
+}
+
+.carousel-inner {
+  width: inherit;
+  height: inherit;
+}
+
+.carousel-item {
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+}
+
+.package-logo-container {
+  width: 100px;
+  height: 100px;
+
+  &.left-aligned {
+    overflow: hidden;
+  }
+}

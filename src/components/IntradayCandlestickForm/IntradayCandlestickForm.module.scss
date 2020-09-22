@@ -1,0 +1,13 @@
+@import "../../scss/_config";
+
+.intraday-candlestick-form {
+  width: 30vw;
+  height: inherit;
+  padding: 10px;
+  border-right: 2px solid black;
+  overflow: scroll;
+}
+
+.custom-control {
+  z-index: 0;
+}

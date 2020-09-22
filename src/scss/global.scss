@@ -1,0 +1,13 @@
+@import "./_config";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  width: inherit;
+  height: calc(100vh - #{$header-height} - #{$footer-height});
+  overflow: scroll;
+}

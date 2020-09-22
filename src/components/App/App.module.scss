@@ -1,0 +1,7 @@
+@import "../../scss/_config.scss";
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  @include flex-display(row);
+}

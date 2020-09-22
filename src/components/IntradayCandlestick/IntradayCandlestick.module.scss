@@ -1,0 +1,7 @@
+@import "../../scss/_config";
+
+.intraday-candlestick-container {
+  width: inherit;
+  height: inherit;
+  @include flex-display(row);
+}
